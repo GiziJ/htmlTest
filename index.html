@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Site for Encanto">
+        <meta name="author" content="Gizi Jaliashvili" >     
+        <title>Encanto</title>
+        <link rel="icon" href="logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+<div>
+    <a href="index2.html" target="_blank">
+    <button>next page</button>
+    </a>
+</div>
+    <hr>
+        <div class="title">
+        <h1 style="position: sticky;";>Encanto</h1>
+        <h3>Encanto La Fantastique Famille Madrigal</h3>
+        </div>
+        <hr>
+
+        <!-- IMG PART -->
+        <div class="image">
+            <img src="logo.jpg" title="Mirabel">
+        </div>
+        <!-- AUDIO PART -->
+        <div class="audio" title="We don't talk about bruno">
+            <audio controls muted> 
+
+                <source src="encanto.mp3">
+                <source src="encanto.mp3">
+                <b>This</b> browser doesn't support audio
+
+            </audio>
+        </div>
+        <!-- VIDEO PART -->
+        <div class="video">
+            <video controls muted width="500" loop title="Encanto trailer">
+                <source src="encantovid.mp4">
+                <source src="encantovid.mp4">
+                <b>This</b> browser doesn't support video
+            </video>
+        </div>
+        
+        <hr>
+
+        <!-- LIST -->
+        <div class="list">
+            <!-- unorderd -->
+        <ul>
+            <li>Encanto Grandchildren Characters: </li>
+            <!-- orderd -->
+            <ol>
+                <li>Mirabel</li>
+                <li>Lusia</li>
+                <li>Camilo</li>
+                <li>Doroles</li>
+            </ol>
+            <li>Encanto Childrend Characters: </li>
+            <ol type="A">
+                <li>Pepa</li>
+                <li>Bruno</li>
+                <li>Julieta</li>
+            </ol>
+        </ul>
+        <!-- DESCRIPTION LIST -->
+        <dl style="background-color: rgb(40, 134, 216); width: fit-content;">
+            <dt>Parent</dt>
+            <dd>მშობელი</dd>
+            <dt>Child</dt>
+            <dd>შვილი</dd>
+        </dl>
+        </div>
+        <hr>
+        <div class="table">
+
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr align="center" style="background-color: gainsboro;">
+                    <td>free</td>
+                    <td>9:00 - 13:00</td>
+                    <td>9:00 - 11:00</td>
+                    <td>9:00 - 11:00</td>
+                    <td>free</td>
+                    <td>9:00 - 15:00</td>
+                    <td>free</td>
+
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="button">
+            <button onclick="doSomething()" style="background-color: #ff6969;;color: #6969ff; border-radius: 5px;">
+                Click me
+            </button>
+            <p style="color: #6969ff;" id="test">Hello</p>
+            <script>
+                function doSomething(){
+                    document.getElementById("test").innerHTML = "Goodbye"
+                }
+            </script>
+        </div>
+        <hr>        
+        <div class="form">
+
+            <form>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="fname" placeholder="name">
+            </form>
+            <br>
+            <form>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="lname" placeholder="last name">
+            </form>
+            <br>
+            <input type="reset">
+
+            <input type="submit">
+
+        </div>
+    </body>
+</html>

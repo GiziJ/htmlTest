@@ -1,0 +1,30 @@
+body{
+        background-image: url(casita.jpg);
+    /* Full height */
+    height: 100%; 
+    /* BG is fixed */
+    background-attachment: fixed;
+    /* Scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.title{
+    color: antiquewhite;
+    font-style: italic;
+    width: fit-content;
+}
+.list {
+    color: rgb(119, 75, 240);
+}
+tr{
+    background-color: gray;
+    width: 100px;
+    align-items: center;
+}
+table{
+    background-color: black;
+    width: 700px;
+}
+.form{
+    color: rgb(255, 15, 15);
+}
