@@ -1,0 +1,53 @@
+/*Use "#" for ID and Use "." for class */
+/*The same class can be used several times for different elements*/
+/*Multiple elements cannot have the same id value on the same page.*/
+
+@import url(null.css);
+
+
+body{
+    background-color: black;
+}
+
+.info2{
+    border: 4px solid gold;
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+#Info{
+    color: green;
+    font-family: "press Start 2p", "consolas";
+    font-size: small;
+    padding: 10px;
+    text-decoration: underline;
+    width: auto;
+
+
+    border-color: aqua;
+    border-width: 5px;
+    border-style:inset;
+    border-radius: 5px;
+
+    width: max-content;
+} 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.button{
+    border-top-style:outset;
+    border-left-style:dotted;
+    border-bottom-style:outset;
+    border-color: silver;
+    border-width: 5px;
+
+    background: linear-gradient(to right, blue, yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: max-content;
+}

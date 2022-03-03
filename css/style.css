@@ -1,0 +1,45 @@
+/*Use "#" for ID and Use "." for class */
+/*The same class can be used several times for different elements*/
+/*Multiple elements cannot have the same id value on the same page.*/
+
+@import url(null.css);
+
+body{
+        background-image: url(../img/casita.jpg);
+    /* Full height */
+    height: 100%; 
+    /*იმოძრაოს სურათმა ფანჯარასთან ერთად*/
+    background-attachment: fixed;
+    /* არ იმეორებდეს თავის თავს */
+    background-repeat: no-repeat;
+    /* იმისთვის რომ მთლიანი სურათი იყოს გამოსახული */
+    background-size: cover;
+    }
+.title{
+    color: rgb(229, 195, 149);
+    font-style: italic;
+    width: fit-content;
+}
+/* it works OoO */
+#idono{
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.list {
+    color: rgb(119, 75, 240);
+}
+tr{
+    background-color: gray;
+    width: 100px;
+    align-items: center;
+}
+table{
+    background-color: black;
+    width: 700px;
+}
+.form{
+    color: rgb(255, 0, 0);
+}
