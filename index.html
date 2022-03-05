@@ -15,6 +15,10 @@
     <a href="html/index2.html" target="_blank">
     <button>next page</button>
     </a>
+
+    <a href="html/img.html" target="_self">
+        <button>IMG page</button>
+    </a>
 </div>
     <hr>
         <div class="title">
@@ -72,11 +76,13 @@
             </ol>
         </ul>
         <!-- ჩამონათვალი -->
-        <dl style="background-color: rgb(40, 134, 216); width: fit-content;">
-            <dt>Parent</dt>
-            <dd>მშობელი</dd>
-            <dt>Child</dt>
-            <dd>შვილი</dd>
+        <dl id="dlItem">
+
+            <dt>parent</dt>
+            <dd>kid</dd>
+            <dt>Grandchildren</dt>
+            <dd>Childrend</dd>
+
         </dl>
         </div>
         <hr>
@@ -112,8 +118,16 @@
             </button>
             <p style="color: #f0f0f0;" id="test">Hello</p>
             <script>
+                var x = 1
                 function doSomething(){
+                    if(x=1){
                     document.getElementById("test").innerHTML = "Goodbye"
+                    x=2
+                    }
+                    else{
+                        document.getElementById("test").innerHTML = "Goodbye"
+                        x=1
+                    }
                 }
             </script>
         </div>

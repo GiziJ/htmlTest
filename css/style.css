@@ -2,7 +2,6 @@
 /*The same class can be used several times for different elements*/
 /*Multiple elements cannot have the same id value on the same page.*/
 
-@import url(null.css);
 
 body{
         background-image: url(../img/casita.jpg);
@@ -29,8 +28,19 @@ body{
 }
 
 .list {
-    color: rgb(119, 75, 240);
+    color: rgb(18, 6, 53);
+    background-color: #00f;
+    width: max-content;
 }
+
+#dlItem{
+    color: aqua;
+    background-color: black;
+    width: auto;
+    padding: 5px;
+    text-align: start;
+}
+
 tr{
     background-color: gray;
     width: 100px;

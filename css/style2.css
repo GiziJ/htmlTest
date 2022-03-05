@@ -2,9 +2,6 @@
 /*The same class can be used several times for different elements*/
 /*Multiple elements cannot have the same id value on the same page.*/
 
-@import url(null.css);
-
-
 body{
     background-color: black;
 }
